@@ -1,0 +1,116 @@
+
+/* registration */
+.container{
+    width: 500px;
+    background-color: rgb(115, 212, 242);
+    padding-top: 20px;
+    padding-bottom: 11px;
+    margin-left: auto;
+    margin-right: auto;
+    height: auto;
+    padding-left: 20px;
+    border-radius: 30px;
+    margin-top: 50px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+.container p
+{
+    text-align: center;
+}
+.container h1{
+    text-align: center;
+    margin-top: 0px;
+}
+.registerbtn{
+    padding: 0.60rem;
+    border: none;
+    border-radius: 5px;
+    background-color: rgb(23, 205, 23);
+    color:black;
+    font-size: 1rem;
+    cursor: pointer;
+}
+.registerbtn:hover{
+    background-color: rgb(12, 111, 197);
+}
+.container-signin p{
+    text-align: center;
+}
+.input-group 
+{
+    margin-bottom: 1rem;
+    margin-left: 15px;
+   
+}
+.input-group label {
+    display: block;
+    margin-bottom: 0.6rem;
+    color: black;
+}
+.input-group input {
+    width: auto;
+    padding: 0.5rem;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+}
+.input-group p{
+    text-align: justify;
+}
+
+/* Login */
+
+.container-signup p{
+    text-align: center;
+}
+.container-login{
+    width: 400px;
+    background-color: rgb(115, 212, 242);
+    padding-top: 20px;
+    padding-bottom: 11px;
+    margin-left: auto;
+    margin-right: auto;
+    height: auto;
+    padding-left: 20px;
+    border-radius: 30px;
+    margin-top: 100px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    
+}
+.container-login h1{
+    text-align: center;
+    margin-top: 0px;
+}
+.loginbtn{
+    padding: 0.40rem;
+    border: none;
+    border-radius: 5px;
+    background-color: rgb(23, 205, 23);
+    color:black;
+    font-size: 1rem;
+    cursor: pointer;
+}
+.loginbtn:hover{
+    background-color: rgb(12, 111, 197);
+}
+.input-group2 
+{
+    margin-bottom: 1rem;
+    margin-left: 60px;
+    
+}
+.input-group2 label {
+    display: block;
+    margin-bottom: 0.6rem;
+    color: black;
+    font-size: 17px;
+}
+.input-group2 input {
+    width: auto;
+    padding: 0.4rem;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    font-size: 15px;
+}
+.input-group2 p{
+    text-align: justify;
+}

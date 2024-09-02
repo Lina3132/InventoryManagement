@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <form>
+        <div class="container-login">
+           <h1>Login</h1> 
+           <br>
+           <div class="input-group2"> 
+           <label for="uname">Username</label> 
+           <input type="text" placeholder="Enter Username" size="30px"  name="uname" id="uname" onclick="myColor();"  required>
+           <br>
+           <br>
+           <label for="psw">Password</label> 
+           <input type="password" placeholder="Password" size="30px"   name="psw" id="psw" required>
+           <br>
+           <input type="checkbox" onclick="show()"> <span name="psw" id="psw">Show password</span>
+           <br>
+           <br>
+           <button type="button" class="loginbtn" onclick="checkLogin()">Login</button>
+        </div>
+      </div>
+        <div class="container-signup">
+           <p>Don't Have an Account? <a href="register.html">Sign Up </a>.</p>
+        </div>
+    </form>
+    <script>
+        function checkLogin(){
+            var u = document.getElementById("uname");
+            var p  = document.getElementById("psw");
+            if(u.value =='' & p.value =='')
+            {
+              alert("username and password is required")
+            }
+            else if(u.value == '')
+            {
+                alert("username  is required")
+                
+            }
+            else if(p.value == '')
+            {
+                alert("password  is required")
+            }
+            else
+            {
+                alert("welcome to RMCET")
+            }
+           
+        }
+        function myColor()
+         {
+           var s=document.getElementById("uname")
+           s.style.backgroundColor="red";
+         } 
+
+    </script>
+    <script>
+        function show(){
+          var g = document.getElementById("psw")
+          if(g.type==="password")
+          {
+            g.type="text"
+          }
+          else
+          {
+            g.type="password"
+          }
+        }
+    </script>
+</body>
+</html>
